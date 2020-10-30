@@ -1,0 +1,9 @@
+.carousel-inner{
+    height: calc(100vh - 30rem);
+    position:relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: transparent;
+    width: 100%;
+}
