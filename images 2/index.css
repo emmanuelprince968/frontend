@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+image-fluid{
+    background-color: #9b9696;
+}
+
+.img-user{
+    width: 200px;
+    height:200px;
+    margin-top: 20px;    
+}
+.username{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-family: 'El Messiri', sans-serif;
+    
+
+}
+.checked {
+    color: orange;
+  }
+.checked2{
+    color:white
+}
+
+.checkedcontainer{
+    margin-left:5px;
+    margin-top: 0%;
+}
+.img-wrapper{
+    background:linear-gradient(to left,#564545,rgb(0, 0, 0)),transparent center/cover;
+    width: 100%;
+}
+.startag{
+    position: absolute;
+    margin-left: 50%;
+    top: 150px;
+    color: aliceblue;
+    font-family: 'Gochi Hand', cursive;
+}
+#carouselimage{
+    width: 200px;
+    height:200px;
+    margin-top: 20px;   
+}
