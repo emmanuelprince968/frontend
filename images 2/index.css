@@ -43,6 +43,22 @@
     border-bottom-left-radius: 0px;
     
 }
-.bg-second-navigation{
-    color: dc3545;
+
+.bg-secondnavbar{
+    background-color: #fd5b6c;
+}
+
+.firstnavbar{
+   height: 70px; 
+}
+ .logoschange{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 25px;
+    left: 20px;
+}
+.myfooter{
+    background: #35322d;
+    color:#fff;
 }

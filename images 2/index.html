@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
   <title>Bootstrap Theme</title>
@@ -23,7 +24,7 @@
 
 
 
-` <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-danger" >
+` <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-danger firstnavbar" >
     <div class="container">
             <a class="btn btn-outline-light navbar-brand-dark" href="#">Grounds</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -31,7 +32,7 @@
             </button>
         <div class="collapse navbar-collapse" id="navbarNav">
 
-            <div class="navbar searchwrapper ml-auto">
+            <!-- <div class="navbar searchwrapper ml-auto">
                       <div class="nav-item dropdown">
                           <button href="#" class="btn btn-warning nav-link-dark dropdown-toggle" style="border-top-right-radius:0rem ; border-bottom-right-radius: 0rem; width: 90px;"  data-toggle="dropdown">Location</button>
                           <div class="dropdown-menu">
@@ -49,7 +50,7 @@
                             
                             <input class="form-control sm-2 search-front" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-warning my-2 my-sm-0 mr-5 searchbtn-front" type="submit"><i class="fa fa-search"></i></button>
-                          </form>
+                          </form> -->
                   
           
                         <ul class="navbar-nav ml-auto">
@@ -81,7 +82,7 @@
   
 
 
-  <nav class="navbar navbar-expand-sm navbar-dark mb-0 bg-danger">
+  <nav class="navbar navbar-expand-sm navbar-dark mb-0 bg-secondnavbar">
     <div class="container">
         <ul class="navbar-nav mc-auto">
             <li class="nav-item">
@@ -153,7 +154,7 @@
               <span class="fa fa-star checked2"></span>
               <span class="fa fa-star checked2"></span>
             </div>
-            <h1 class="startag">STAR PLAYER OF THE DAY</h1>
+            <legend class="startag">STAR PLAYER OF THE DAY</legend>
           </div>
         </div>
       </div>
@@ -175,7 +176,7 @@
                <span class="fa fa-star checked2"></span>
                <span class="fa fa-star checked2"></span>
              </div>
-             <h1 class="startag">STAR TEAM OF THE DAY</h1>
+             <legend class="startag">STAR TEAM OF THE DAY</legend>
            </div>
          </div>
        </div>
@@ -194,218 +195,212 @@
 
 </div>
 
+<!--Search Bar-->
 
-
-
-
-
-
-
-
-
-
-
-<!---Cards Slider-->
-<!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
-        class="fas fa-chevron-right"></i></a>
-  </div>
-  <!--/.Controls-->
-
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-example" data-slide-to="1"></li>
-    
-  </ol>
-  <!--/.Indicators-->
-
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-
-    <!--First slide-->
-    <div class="carousel-item active">
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
+<div class="s002">
+  <form>
+    <fieldset>
+      <legend>SEARCH GROUND</legend>
+    </fieldset>
+    <div class="inner-form">
+      <div class="input-field first-wrap">
+        <div class="icon-wrap">
+          <i class="fa fa-map-marker logoschange"></i>
         </div>
+        <input id="search" type="text" placeholder="Search Ground,location" />
       </div>
-
-      <div class="col-md-3" style="float:left">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3" style="float:left">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
+      <div class="input-field fouth-wrap">
+        <div class="icon-wrap">
+          <i class="fas fa-volleyball-ball logoschange"></i>
       
-       <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
         </div>
+        <select data-trigger="" name="choices-single-defaul">
+          <option placeholder="">Sport</option>
+          <option>Cricket</option>
+          <div class="dropdown-divider"></div>
+          <option>Football</option>
+          <div class="dropdown-divider"></div>
+          <option>Basketball</option>
+          <div class="dropdown-divider"></div>
+          <option>Tennis</option>
+          <div class="dropdown-divider"></div>
+          <option>Volleyball</option>
+        </select>
       </div>
+      <div class="input-field second-wrap">
+        <div class="icon-wrap">
+          <i class="fa fa-calendar-alt logoschange"></i>
+        </div>
+        <input class="datepicker" id="depart" type="text" placeholder="dd/mm/yyyy" />
+      </div> 
+      <div class="input-field fifth-wrap">
+        <button class="btn-search" type="button">SEARCH</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script src="js/extention/choices.js"></script>
+<script src="js/extention/flatpickr.js"></script>
+<script>
+  flatpickr(".datepicker",
+  {
+    dateFormat: "d.m.Y",
+    minDate: "today"
+
+  });
+
+</script>
+<script>
+  const choices = new Choices('[data-trigger]',
+  {
+    searchEnabled: false,
+    itemSelectText: '',
+  });
+
+</script>
+
+<!-- Footer -->
+<footer class="page-footer font-large pt-4 myfooter">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Sun Techno</h6>
+        <p>A way to bright life</p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
+        <p>
+          <a href="#!"></a>
+        </p>
+        <p>
+          <a href="#!">Ongoing Matches</a>
+        </p>
+        <p>
+          <a href="#!">Upcoming Matches</a>
+        </p>
+        <p>
+          <a href="#!">Live Score</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <p>
+          <a href="#!">Your Account</a>
+        </p>
+        <p>
+          <a href="#!">Create you own team</a>
+        </p>
+        <p>
+          <a href="#!">Start a league</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> Madhapur, Hyderabad 500082</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@suntechnoservices.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i>9030590970</p>
+        <p>
+          <i class="fas fa-print mr-3"></i>040-234566</p>
+      </div>
+      <!-- Grid column -->
 
     </div>
-    <!--/.First slide-->
+    <!-- Footer links -->
 
-    <!--Second slide-->
-    <div class="carousel-item">
+    <hr>
 
-      <div class="col-md-3" style="float:left">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
 
-      <div class="col-md-3" style="float:left">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
-        </div>
-      </div>
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
 
-      <div class="col-md-3" style="float:left">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
-        </div>
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="www.suntechnoservices.com">
+            <strong> suntechnoservices.com</strong>
+          </a>
+        </p>
+
       </div>
-      
-      <div class="col-md-3" style="float:left">
-        <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary">Button</a>
-          </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+
       </div>
+      <!-- Grid column -->
 
     </div>
-    <!--/.Second slide-->
-
-   
+    <!-- Grid row -->
 
   </div>
-  <!--/.Slides-->
+  <!-- Footer Links -->
 
-</div>
-<!--/.Carousel Wrapper-->
-
-<!--search bar-->
-
-<div id="searchbar" class="btn-secondary p-4">
-  <div class="container">
-    <div class="row justify-content-center">    
-
-      <div id="location" class="dropdown col-sm text-center" >
-                        <input class="dropdown-toggle" type="text"  data-toggle="dropdown" placeholder="Search Location">
-                        
-                        </input>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Hyderabad</a> 
-                          <a class="dropdown-item" href="#">Delhi</a>
-                          <a class="dropdown-item" href="#">Mumbai</a>
-                          <a class="dropdown-item" href="#">Pune</a> 
-                          <a class="dropdown-item" href="#">Bangalore</a> 
-                          <a class="dropdown-item" href="#">Chennai</a>
-                          <a class="dropdown-item" href="#">Vizag</a>
-                          </div>
+</footer>
+<!-- Footer -->
 
 
 
-        </div>
-        <div id="location" class="dropdown col-sm text-center" >
-                          <input class="dropdown-toggle" type="text" data-toggle="dropdown" placeholder="Search Ground">
-                          
-                          </input>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">NTR Stadium</a> 
-                            <a class="dropdown-item" href="#">Ramya Grounds</a>
-                            <a class="dropdown-item" href="#">Parade Grounds</a>
-                            <a class="dropdown-item" href="#">Cricket Nets</a> 
-                            <a class="dropdown-item" href="#">Uppal Stadium</a> 
-                            <a class="dropdown-item" href="#">Galli Ground</a>
-                            <a class="dropdown-item" href="#">Anil Nets</a>
-                            </div>
 
 
 
-        </div>
-      <div id="date" class="col-sm ml-0 text-center">
-                    <input type="text" class="input" id="datepicker"  placeholder="Select Date">
-                    </div>
-   
 
 
 
-      <div class="col-sm text-center mr-3">
-        <input class="btn btn-warning" type="submit" style="width: 100px;" value="Go">
-      </div>
-    </div>
-
-  </div>
-</div>
 
 
 
