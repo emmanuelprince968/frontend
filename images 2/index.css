@@ -1,33 +1,26 @@
 *{
     box-sizing: border-box;
 }
-image-fluid{
-    background-color: #9b9696;
-}
 
-.img-user{
-    width: 200px;
-    height:200px;
+
+.img-top{
+    width: 150px;
+    height:150px;
     margin-top: 20px;    
 }
-.username{
+.title{
     margin-top: 5px;
     margin-bottom: 5px;
     color: aliceblue;
     font-family: 'El Messiri', sans-serif;
     
-
 }
+
 .checked {
     color: orange;
   }
 .checked2{
-    color:white
-}
-
-.checkedcontainer{
-    margin-left:5px;
-    margin-top: 0%;
+    color:aliceblue;
 }
 .img-wrapper{
     background:linear-gradient(to left,#564545,rgb(0, 0, 0)),transparent center/cover;
@@ -36,12 +29,20 @@ image-fluid{
 .startag{
     position: absolute;
     margin-left: 50%;
-    top: 150px;
+    top: 100px;
     color: aliceblue;
     font-family: 'Gochi Hand', cursive;
 }
-#carouselimage{
+.form-control{
     width: 200px;
-    height:200px;
-    margin-top: 20px;   
+    border-radius:0rem;
+}
+.searchbtn-front{
+    width: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+.bg-second-navigation{
+    color: dc3545;
 }

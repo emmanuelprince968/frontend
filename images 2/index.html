@@ -19,53 +19,338 @@
 
 <body>
   <!-- START HERE -->
-  <!-- NAVBAR WITH DROPDOWN -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary mb-0">
+  <!-- NAVBAR WITH SEARCH,DROPDOWN -->
+
+
+
+` <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-danger" >
     <div class="container">
-        <a class="navbar-brand btn btn-secondary" href="#">Grounds</a>
-        <ul class="navbar-nav">
+            <a class="btn btn-outline-light navbar-brand-dark" href="#">Grounds</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <div class="navbar searchwrapper ml-auto">
+                      <div class="nav-item dropdown">
+                          <button href="#" class="btn btn-warning nav-link-dark dropdown-toggle" style="border-top-right-radius:0rem ; border-bottom-right-radius: 0rem; width: 90px;"  data-toggle="dropdown">Location</button>
+                          <div class="dropdown-menu">
+                              <a href="#" class="dropdown-item">Hyderabad</a>
+                              <div class="dropdown-divider"></div>
+                              <a href="#" class="dropdown-item">Mumbai</a>
+                              <div class="dropdown-divider"></div>
+
+                              <a href="#" class="dropdown-item">Delhi</a>
+                              <div class="dropdown-divider"></div>
+                              <a href="#" class="dropdown-item">Chennai</a>
+                            </div>  
+                        </div>
+                          <form class="form-inline search-front">
+                            
+                            <input class="form-control sm-2 search-front" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-warning my-2 my-sm-0 mr-5 searchbtn-front" type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                  
+          
+                        <ul class="navbar-nav ml-auto">
+                  
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light nav-link-dark mr-2" href="#">About</a>
+                  
+                            </li>
+                          
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light nav-link-dark mr-2" href="#">Services</a>
+                            </li>
+                          
+                            
+                            
+                            <li class="nav-item dropdown">
+                              <a href="#" class="btn btn-outline-light nav-link-dark dropdown-toggle"  data-toggle="dropdown">Login</a>
+                              <div class="dropdown-menu">
+                                  <a href="#" class="dropdown-item">User Login</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a href="#" class="dropdown-item">Owner Login</a>    
+                              </div>  
+                          </li>
+                        </ul>
+              </div>           
+         </div> 
+      </div>
+  </nav>
+  
+
+
+  <nav class="navbar navbar-expand-sm navbar-dark mb-0 bg-danger">
+    <div class="container">
+        <ul class="navbar-nav mc-auto">
             <li class="nav-item">
-                <a class="nav-link-dark btn btn-secondary" href="#">About</a>
+                <a class="nav-link-dark btn mr-2" style="color:aliceblue;" href="#">Book A Ground</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link-dark btn btn-secondary ml-4" href="#">Profile</a>
+                <a class="nav-link-dark btn mr-2" style="color:aliceblue;" href="#">Ongoing Matches</a>
             </li>
-            <li class="nav-item dropdown">
-                <a href="#" class="nav-link-dark dropdown-toggle btn btn-secondary ml-4" data-toggle="dropdown">Login</a>
-                <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">Link 1</a>
-                    <a href="#" class="dropdown-item">Link 2</a>
-                    <a href="#" class="dropdown-item">Link 3</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link-dark btn mr-2" style="color:aliceblue;" href="#">Upcoming Matches</a>
             </li>
-           
-        </ul>
+            <li class="nav-item">
+                <a class="nav-link-dark btn mr-2" style="color:aliceblue;" href="#">Create Team</a>
+            
+            </li>
+            <li class="nav-item">
+              <a class="nav-link-dark btn mr-2" style="color:aliceblue;" href="#">Start League</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link-dark btn mr-2" style="color:aliceblue;" href="#">Notifications</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link-dark btn btn-outline-light mr-2" href="#">Live Score</a>
+             </li> 
+          </ul>
     </div>
 </nav>
 
 
 
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+  <!--Controls-->
+  <!-- <div class="controls-left">
+    <a class="carousel-control-prev" href="#multi-item-example" data-slide="0">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#multi-item-example" data-slide="1">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div> -->
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="img-wrapper" style="float:left">
+       <div class="mb-2">
+          <img class="img-top ml-5"
+            src="emmi.jpg" alt="Card image cap">
+          <div class="body">
+            <h6 class="title ml-5">Emmanuel Prince</h6>
+            <div class="checkedcontainer ml-5">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked2"></span>
+              <span class="fa fa-star checked2"></span>
+            </div>
+            <h1 class="startag">STAR PLAYER OF THE DAY</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+      <div class="img-wrapper" style="float:left">
+        <div class="mb-2">
+           <img class="img-top ml-5"
+             src="emmi.jpg" alt="Card image cap">
+           <div class="body">
+             <h6 class="title ml-5">Emmanuel Prince</h6>
+             <div class="checkedcontainer ml-5">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked2"></span>
+               <span class="fa fa-star checked2"></span>
+             </div>
+             <h1 class="startag">STAR TEAM OF THE DAY</h1>
+           </div>
+         </div>
+       </div>
+      </div>
+    <!--/.Second slide-->
+    <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#multi-item-example" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+   
+
+  </div>
+  <!--/.Slides-->
+
+</div>
 
 
 
-<!--image-->
-<div class="img-wrapper">
-  <div class="container">        
-      <img class="img-user" src="emmi.jpg" alt="img emmi">
-      <h6 class="username">Emmanuel Prince</h6>
-      <div class="checkedcontainer">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked2"></span>
-          <span class="fa fa-star checked2"></span>
+
+
+
+
+
+
+
+
+
+<!---Cards Slider-->
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-top">
+    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+        class="fas fa-chevron-right"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3" style="float:left">
+       <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
       </div>
       
+       <div class="col-md-3" style="float:left">
+       <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3" style="float:left">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a class="btn btn-primary">Button</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide-->
+
+   
+
   </div>
+  <!--/.Slides-->
+
 </div>
-<div class="startag">
-  <h1 >STAR PLAYER OF THE DAY</h1>
-</div>
+<!--/.Carousel Wrapper-->
 
 <!--search bar-->
 
@@ -73,8 +358,7 @@
   <div class="container">
     <div class="row justify-content-center">    
 
-      <div id="location" class="dropdown col-sm text-center mr-3 mb-2" >
-                        <i class="fas fa-map-marker"></i>
+      <div id="location" class="dropdown col-sm text-center" >
                         <input class="dropdown-toggle" type="text"  data-toggle="dropdown" placeholder="Search Location">
                         
                         </input>
@@ -91,8 +375,7 @@
 
 
         </div>
-        <div id="location" class="dropdown col-sm text-center mr-3 mb-2" >
-                          <i class="fas fa-map-marker"></i>
+        <div id="location" class="dropdown col-sm text-center" >
                           <input class="dropdown-toggle" type="text" data-toggle="dropdown" placeholder="Search Ground">
                           
                           </input>
@@ -109,8 +392,7 @@
 
 
         </div>
-      <div id="date" class="col-sm text-center mr-3 mb-2">
-                    <i class="fas fa-calendar-alt"></i>
+      <div id="date" class="col-sm ml-0 text-center">
                     <input type="text" class="input" id="datepicker"  placeholder="Select Date">
                     </div>
    
@@ -124,8 +406,6 @@
 
   </div>
 </div>
-
-
 
 
 
