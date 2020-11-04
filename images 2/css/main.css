@@ -1523,7 +1523,7 @@ span.flatpickr-weekday {
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Poppins', sans-serif;
-  background-image: url("../images/stadium1.jpg");
+  background: url("../images/stadium1.jpg");
   background-size: cover;
   background-position: center center;
   padding: 15px;
@@ -1539,17 +1539,17 @@ span.flatpickr-weekday {
 }
 
 .s002 form legend {
-  font-size: 60px;
+  font-size: 40px;
   line-height: 1;
-  color: #fff;
-  margin-bottom: 60px;
+  color: aliceblue;
+  margin-bottom: 40px;
   font-weight: 400;
   text-align: center;
 }
 
 .s002 form .inner-form {
   background: rgba(0, 0, 0, 0.5);
-  padding: 16px;
+  padding: 20px;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
@@ -1729,9 +1729,9 @@ span.flatpickr-weekday {
 .s002 form .inner-form .input-field.fifth-wrap .btn-search {
   height: 70px;
   width: 100%;
-  background: #b78a62;
+  background:rgb(214 178 0);
   white-space: nowrap;
-  border-radius: 5px;
+  border-radius: 40px;
   font-size: 20px;
   color: #fff;
   transition: all .2s ease-out, color .2s ease-out;
@@ -1742,7 +1742,7 @@ span.flatpickr-weekday {
 }
 
 .s002 form .inner-form .input-field.fifth-wrap .btn-search:hover {
-  background: #af7d51;
+  background: #946c00;
 }
 
 @media screen and (max-width: 992px) {
